@@ -5,7 +5,7 @@
 ## MODULE 01: Unity Catalog Foundations
 
 **METADATA**
-- Time estimate: 25 minutes
+- Time estimate: 10 minutes
 - Feature(s) covered: Unity Catalog governance (column comments, grants, lightweight semantic context)
 - Depends on: Module 00 (tables must exist)
 - Key artifact created: Annotated, governed tables ready for Genie
