@@ -10,7 +10,7 @@
 
 **Reduced scope (~60% of full lab, ~90 minutes):**
 - Module 00: Setup (10 min, mostly pre-run by facilitator)
-- Module 01: Unity Catalog Foundations (15 min, condensed to one concept callout instead of two)
+- Module 01: Unity Catalog Foundations (5 min, condensed to one concept callout instead of two)
 - Module 02: Genie Agent (35 min — kept nearly full-length, this is the core "aha" moment for a customer)
 - Module 04: MCP Connectors (10 min, conceptual walkthrough rather than full hands-on — most customers won't build this live)
 - Module 05: Governance Proof (10 min, facilitator-led persona comparison rather than full hands-on for every participant)
