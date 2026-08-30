@@ -4,7 +4,7 @@
 
 By the end of this lab, you will have built a governed, testable conversational analytics experience with Databricks Genie: a retail sales leader can ask store-level questions in plain English and get answers grounded in Unity Catalog, backed by inspectable SQL, and validated through repeatable benchmarks rather than AI guesswork.
 
-**Total Duration:** ~2 hours 5 minutes · **Audience:** Solutions Architects / Sales Engineers, all seniority levels
+**Total Duration:** ~2 hours · **Audience:** Solutions Architects / Sales Engineers, all seniority levels
 
 ---
 
