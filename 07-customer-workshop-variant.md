@@ -1,12 +1,12 @@
-[← Instructor Guide](08-instructor-guide.md)  |  [🏠 Home](README.md)  |  
+[← Cleanup](06-cleanup.md)  |  [🏠 Home](README.md)  |  
 
 ---
 
-# SECTION 9: Customer Workshop Variant
+# SECTION 7: Customer Workshop Variant
 
 **Renamed objects:** All `RAD_` prefixes become `WORKSHOP_` (e.g., `WORKSHOP_STORE`, `WORKSHOP_GENIE_SALES`).
 
-**Removed for customer delivery:** Section 7 enablement certification gate and challenge-out mechanics (internal field-training mechanism only), all competitive positioning callouts, internal tool references.
+**Removed for customer delivery:** all competitive positioning callouts and internal tool references (internal field-training material only).
 
 **Reduced scope (~60% of full lab, ~90 minutes):**
 - Module 00: Setup (10 min, mostly pre-run by facilitator)
@@ -43,4 +43,4 @@
 
 ---
 
-[← Instructor Guide](08-instructor-guide.md)  |  [🏠 Home](README.md)  |  
+[← Cleanup](06-cleanup.md)  |  [🏠 Home](README.md)  |  

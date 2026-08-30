@@ -22,9 +22,9 @@
 
 **HANDS-ON STEPS**
 
-1. In this step, you will open the companion **Python notebook** named `RAD_GENIE_AGENT_API_SMOKE_TEST`, because this is where the benchmark testing logic lives.
+1. In this step, you will open the companion **Python notebook** at [`notebooks/RAD_GENIE_AGENT_API_SMOKE_TEST.ipynb`](../notebooks/RAD_GENIE_AGENT_API_SMOKE_TEST.ipynb), because this is where the benchmark testing logic lives.
 
-If the companion notebook has not been provided in your workspace, create a new Python notebook with that exact name.
+Import this notebook directly into your Databricks workspace (Workspace left nav > Import > select the `.ipynb` file). If the companion notebook has not been provided in your workspace, create a new Python notebook named `RAD_GENIE_AGENT_API_SMOKE_TEST` instead.
 
 UI ALTERNATIVE: Workspace left nav > Create > Notebook. Make sure the notebook language is **Python** and attach it to notebook compute that supports Python, such as serverless notebook compute or a cluster. Do **not** attach this notebook to a SQL warehouse for this module.
 
@@ -278,8 +278,7 @@ The screenshots below are intentionally useful for teaching because they show th
 
 #### Screenshot 1 — Benchmark run summary
 
-> **[SCREENSHOT PLACEHOLDER 1 — paste the benchmark run summary image here]**
-> Shows the benchmark run summary with **33% accurate (1/3)** and the failed question **Which Southeast stores had the highest average basket size during the sample week of 2026-07-01 through 2026-07-07?**
+![Benchmark run summary showing 33% accurate (1/3), with the failing question "Which Southeast stores had the highest average basket size during the sample week of 2026-07-01 through 2026-07-07?"](../assets/screenshots/benchmark-run-summary.png)
 
 Caption: The benchmark run summary shows one passing benchmark and two failing benchmarks. This is valuable because it proves the evaluation system is distinguishing between aligned and misaligned benchmark definitions rather than blindly passing everything.
 
@@ -291,8 +290,7 @@ Caption: The benchmark run summary shows one passing benchmark and two failing b
 
 #### Screenshot 2 — Failed benchmark for highest conversion rate
 
-> **[SCREENSHOT PLACEHOLDER 2 — paste the failed conversion-rate benchmark image here]**
-> Shows the failed benchmark **Which store has the highest conversion rate in the sample data?** with score reasons **Missing Rows** and **Incomplete Output**.
+![Failed benchmark for "Which store has the highest conversion rate in the sample data?" with score reasons Missing Rows and Incomplete Output](../assets/screenshots/benchmark-conversion-rate-fail.png)
 
 Caption: This result shows a classic benchmark-definition problem: the question asks for the single highest store, but the benchmark SQL returns the full ordered list of stores.
 
@@ -304,13 +302,7 @@ Caption: This result shows a classic benchmark-definition problem: the question 
 
 #### Screenshot 3 — Passing benchmark for total skincare sales
 
-> **[SCREENSHOT PLACEHOLDER 3 — paste the passing skincare-sales benchmark image here]**
-> Shows the passing benchmark **What was total skincare sales in the Southeast region during the sample week of 2026-07-01 through 2026-07-07?** with assessment **Good**.
-
-Caption: This benchmark passed because the question, the expected business answer, and the ground truth SQL were all aligned around a single aggregate metric.
-
-> **NOTE: Why Benchmark 2 passed**
-> This benchmark is cleanly defined. The question asks for one aggregate value, the SQL returns one aggregate value, and Genie returned the same result. This is the pattern to emulate when building benchmark suites: tight alignment between the natural-language question and the exact shape of the expected result.
+The third benchmark, **"What was total skincare sales in the Southeast region during the sample week of 2026-07-01 through 2026-07-07?"**, passed. It passed because the question, the expected business answer, and the ground truth SQL were all aligned around a single aggregate metric.
 
 ### What we would encourage SAs to play with
 

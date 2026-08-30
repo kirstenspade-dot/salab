@@ -4,7 +4,7 @@
 
 By the end of this lab, you will have built a governed, testable conversational analytics experience with Databricks Genie: a retail sales leader can ask store-level questions in plain English and get answers grounded in Unity Catalog, backed by inspectable SQL, and validated through repeatable benchmarks rather than AI guesswork.
 
-**Total Duration:** ~2 hours 15 minutes · **Audience:** Solutions Architects / Sales Engineers, all seniority levels
+**Total Duration:** ~2 hours 5 minutes · **Audience:** Solutions Architects / Sales Engineers, all seniority levels
 
 ---
 
@@ -22,14 +22,12 @@ By the end of this lab, you will have built a governed, testable conversational 
 | 01 | [Unity Catalog Foundations](modules/module-01-unity-catalog.md) | 25 min |
 | 02 | [Genie Agent — Conversational Analytics](modules/module-02-genie-agent.md) | 35 min |
 | 03 | [Databricks Notebooks — Validate & Iterate](modules/module-03-notebooks-validate.md) | 25 min |
-| 04 | [MCP Connectors](modules/module-04-mcp-connectors.md) | 15 min |
+| 04 | [MCP Connectors](modules/module-04-mcp-connectors.md) | 5 min |
 | 05 | [Governance Proof](modules/module-05-governance-proof.md) | 15 min |
 
 ### Wrap-Up
 6. [Cleanup](06-cleanup.md)
-7. [Certification Gate](07-grading-certification-gate.md) — knowledge-gate checkpoints designed to require genuine understanding at each stage
-8. [Instructor Guide](08-instructor-guide.md) — stuck points, timing, pre-work
-9. [Customer Workshop Variant](09-customer-workshop-variant.md) — condensed, renamed version for live customer delivery
+7. [Customer Workshop Variant](07-customer-workshop-variant.md) — condensed, renamed version for live customer delivery
 
 ### Companion Notebook
 - [`notebooks/RAD_GENIE_AGENT_API_SMOKE_TEST.ipynb`](notebooks/RAD_GENIE_AGENT_API_SMOKE_TEST.ipynb) — the Module 03 Python smoke test notebook, run against a real Genie Agent Conversation API

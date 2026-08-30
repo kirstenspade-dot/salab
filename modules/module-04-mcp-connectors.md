@@ -5,7 +5,7 @@
 ## MODULE 04: MCP Connectors — Expose Genie Beyond the Chat UI
 
 **METADATA**
-- Time estimate: 15 minutes
+- Time estimate: 5 minutes
 - Feature(s) covered: Genie MCP endpoint
 - Depends on: Module 02/03 (a validated Genie Agent)
 - Key artifact created: A documented, callable MCP URL for the agent

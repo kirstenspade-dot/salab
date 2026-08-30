@@ -1,4 +1,4 @@
-[← Module 05: Governance Proof](modules/module-05-governance-proof.md)  |  [🏠 Home](README.md)  |  [Certification Gate →](07-grading-certification-gate.md)
+[← Module 05: Governance Proof](modules/module-05-governance-proof.md)  |  [🏠 Home](README.md)  |  [Customer Workshop Variant →](07-customer-workshop-variant.md)
 
 ---
 
@@ -46,4 +46,4 @@ SHOW CATALOGS LIKE 'RAD_CATALOG';
 
 ---
 
-[← Module 05: Governance Proof](modules/module-05-governance-proof.md)  |  [🏠 Home](README.md)  |  [Certification Gate →](07-grading-certification-gate.md)
+[← Module 05: Governance Proof](modules/module-05-governance-proof.md)  |  [🏠 Home](README.md)  |  [Customer Workshop Variant →](07-customer-workshop-variant.md)

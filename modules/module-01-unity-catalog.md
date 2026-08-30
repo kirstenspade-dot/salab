@@ -20,18 +20,6 @@ Use these Databricks docs for the governance and metadata steps in this module:
 * [Add comments to data and AI assets](https://docs.databricks.com/aws/en/comments/index/)
 * [Discover data comments in Catalog Explorer](https://docs.databricks.com/aws/en/discover/index/)
 
-**VIDEO SCRIPT (2 minutes, Synthesia, second-person)**
-
-[HOOK — 15 sec] "Right now, if you pointed a general AI chatbot at your sales data, it wouldn't know what 'active customer' means, which table is the source of truth, or who's allowed to see what. That's the problem Unity Catalog solves before Genie ever enters the picture."
-
-[PROBLEM — 30 sec] "Without governance, every AI tool that touches your data either gets too much access — a compliance risk — or has to be manually restricted table by table, which doesn't scale. Homegrown systems often grant agents broad access and rely on prompt engineering to filter results after the fact. That's fragile, and it's exactly the kind of ungoverned setup that produced RAD's inconsistent chatbot answers."
-
-[HOW IT WORKS — 45 sec] "Unity Catalog is the governance and semantic context layer underneath everything in Databricks — tables, AI agents, models, and MCP connections. Think of it like a building's badge system: the badge doesn't change based on which door you're trying to open, it works everywhere consistently. Column comments, object names, and grants are not just admin metadata; they become part of the technical grounding that helps Genie interpret business questions correctly and keeps the resulting answers permission-aware by default."
-
-[WHY IT MATTERS — 20 sec] "This means when we build the Genie Agent in the next module, it inherits governance automatically — no separate security model to build and maintain for AI specifically."
-
-[WHAT YOU'LL BUILD — 10 sec] "In this module, you will annotate RAD's tables so they're ready for Genie to understand. Let's go."
-
 **CONCEPT CALLOUT BOXES**
 
 > **CONCEPT: Column Comments Create a Lightweight Semantic Context Layer**
