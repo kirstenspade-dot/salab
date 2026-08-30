@@ -10,7 +10,7 @@
 
 **Tagline:** By the end of this lab, you will have built a governed, testable conversational analytics experience with Databricks Genie: a retail sales leader can ask store-level questions in plain English and get answers grounded in Unity Catalog, backed by inspectable SQL, and validated through repeatable benchmarks rather than AI guesswork.
 
-**Total Duration:** ~2 hours 5 minutes (125 minutes)
+**Total Duration:** ~2 hours (120 minutes)
 **Module Count:** 5 core modules + Setup (Module 00) + Cleanup
 
 **Target Audience:** Solutions Architects / Sales Engineers, all seniority levels. No prior Databricks experience required; basic SQL familiarity recommended.
@@ -34,7 +34,7 @@
 | Module | Title | Time |
 |---|---|---|
 | 00 | Setup | 15 min |
-| 01 | Unity Catalog Foundations | 25 min |
+| 01 | Unity Catalog Foundations | 10 min |
 | 02 | Genie Agent — Conversational Analytics | 35 min |
 | 03 | Databricks Notebooks — Validate & Iterate | 25 min |
 | 04 | MCP Connectors — Expose Genie Beyond the Chat UI | 5 min |
