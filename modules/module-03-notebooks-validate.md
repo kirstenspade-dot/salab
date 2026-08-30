@@ -294,7 +294,7 @@ Caption: The benchmark run summary shows one passing benchmark and two failing b
 
 Caption: This result shows a classic benchmark-definition problem: the question asks for the single highest store, but the benchmark SQL returns the full ordered list of stores.
 
-> **NOTE: What happened in Benchmark 3**
+> **NOTE: What happened in Benchmark 2**
 > Genie answered the question in the most natural way: it returned the store with the highest conversion rate. The benchmark SQL, however, returns **all stores ordered by `conversion_rate`**. Because Chat-mode scoring compares the returned result sets, Genie is penalized for not returning rows that the question itself did not clearly ask for.
 
 > **CALLOUT: This is not a random failure**
