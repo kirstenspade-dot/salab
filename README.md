@@ -19,7 +19,7 @@ By the end of this lab, you will have built a governed, testable conversational 
 | # | Module | Time |
 |---|---|---|
 | 00 | [Setup](modules/module-00-setup.md) | 15 min |
-| 01 | [Unity Catalog Foundations](modules/module-01-unity-catalog.md) | 25 min |
+| 01 | [Unity Catalog Foundations](modules/module-01-unity-catalog.md) | 10 min |
 | 02 | [Genie Agent — Conversational Analytics](modules/module-02-genie-agent.md) | 35 min |
 | 03 | [Databricks Notebooks — Validate & Iterate](modules/module-03-notebooks-validate.md) | 25 min |
 | 04 | [MCP Connectors](modules/module-04-mcp-connectors.md) | 5 min |
